@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd ~/Work/notebooks/keras
+
+conda activate py3
+
+jupyter lab
