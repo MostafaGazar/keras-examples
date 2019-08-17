@@ -2,6 +2,6 @@
 
 cd ~/Work/notebooks/keras
 
-conda activate py3
+conda activate keras
 
 jupyter lab
