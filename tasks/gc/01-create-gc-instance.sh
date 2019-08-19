@@ -3,7 +3,7 @@ set -x #echo on
 
 export IMAGE_FAMILY="pytorch-latest-gpu" # or "pytorch-latest-cpu" for non-GPU instances
 # https://cloud.google.com/compute/docs/gpus/
-export ZONE="us-west2-b" # budget: "us-west1-b"
+export ZONE="us-west2-c" # budget: "us-west1-b"
 export INSTANCE_NAME="keras"
 export INSTANCE_TYPE="n1-highmem-8" # budget: "n1-highmem-4"
 
