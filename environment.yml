@@ -185,5 +185,5 @@ dependencies:
     - tf-estimator-nightly==1.14.0.dev2019060501
     - urllib3==1.24.3
     - werkzeug==0.15.2
-prefix: /Users/mostafagazar/anaconda3/envs/py3
+prefix: /Users/mostafagazar/anaconda3/envs/keras
 
