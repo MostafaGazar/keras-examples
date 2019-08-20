@@ -1,7 +1,7 @@
 ## Setup local env:
 1. Create conda env `conda env create -f environment.yml`
 2. Update env file `conda update --all` then  `conda env export --no-builds > environment.yml`
-3. Update env file after installing some packages `conda env update –f environment.yml`
+3. Update env file after installing some packages `conda env update`
 
 ### Enable jupyter lab git extension:
 ```
