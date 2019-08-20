@@ -1,4 +1,8 @@
 #!/bin/bash
 set -x #echo on
 
-gcloud compute instances start --zone=$'us-west2-c' 'keras'
+# Start instance
+gcloud compute instances start --zone=$'us-central1-b' 'keras'
+
+# Connect to it
+gcloud compute ssh --zone=$'us-central1-b' jupyter@$'keras' -- -L 8080:localhost:8080
