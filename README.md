@@ -4,7 +4,6 @@
 3. Update env file after installing some packages `conda env update`
 
 ## Generate a requirements.txt file:
-`conda list # Gives you list of packages used for the environment`
 `conda list -e > requirements.txt`
 
 ## Troubleshooting
