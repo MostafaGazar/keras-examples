@@ -3,6 +3,9 @@ data/processed
 data/cache
 data/raw
 
+# Embedding
+embedding/
+
 # Python
 __pycache__
 .pytest_cache
