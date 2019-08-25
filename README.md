@@ -12,13 +12,13 @@
 # Work with virtualenv
 
 ## Create a new env
-`virtualenv -p python3 .env`
+`virtualenv -p python3 .venv`
 
 ## Install a Jupyter kernel
 `ipython kernel install --user --name=.venv`
 
 ## Activate the env
-`source .env/bin/activate`
+`source .venv/bin/activate`
 
 ## Deactivate the env
 `deactivate`
